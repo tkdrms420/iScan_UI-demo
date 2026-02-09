@@ -253,7 +253,7 @@
       <div>
         <h1>신규 심화분류</h1>
         <p class="desc">
-          체크한 항목들끼리만 <b>라이선스 정보</b>를 비교합니다. (선택 0~1개면 표시 없음)<br>
+          체크한 항목들끼리만 <b>일치 여부</b>를 비교합니다. (선택 0~1개면 표시 없음)<br>
           
         </p>
       </div>
@@ -304,7 +304,7 @@
               <th class="right">정확도 <span class="col-resizer" data-col="8"></span></th>
               <th>분석유형 <span class="col-resizer" data-col="9"></span></th>
               <th>AI종합평가 <span class="col-resizer" data-col="10"></span></th>
-              <th>라이선스 정보 <span class="col-resizer" data-col="11"></span></th>
+              <th>일치 여부 <span class="col-resizer" data-col="11"></span></th>
             </tr>
           </thead>
 
@@ -536,7 +536,7 @@
         - AI선별 제품명: 수집DB와 비교 시 AI가 참조한 MDB 제품명<br>
         - 분석 근거: 수집 데이터와 MDB 제품 간의 분석 결과 설명<br>
         - AI종합평가: 매칭 결과를 점수로 환산한 값<br>
-		- 라이선스 정보: 선택 항목의 라이선스 분류 일치 여부
+		- 일치 여부: 선택 항목의 라이선스 분류 일치 여부
       </div>
     </div>
   </div>
@@ -722,7 +722,7 @@
     }
 
     // ====== 라이선스 표시 규칙 ======
-    // - 선택 0~1개: 라이선스 정보 전부 빈 칸
+    // - 선택 0~1개: 일치 여부 전부 빈 칸
     // - 선택 2개 이상:
     //   - 선택된 항목 중 같은 그룹이 2개 이상인 그룹은 "일치"
     //   - 선택된 항목 중 단독(1개만 선택된) 그룹은 "불일치"
